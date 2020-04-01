@@ -1,5 +1,8 @@
 site_name: "Virtual Reality Meeting Environment API Documentation"
 
+nav:
+  - "Home": index.md
+
 theme:
   name: 'material'
 
