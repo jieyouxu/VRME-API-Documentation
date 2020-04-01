@@ -24,3 +24,11 @@ communication difficulities between users of remote meeting platforms.
 	!!! info "Management Website Frontend"
 
 		[Management Website Frontend](https://github.com/zcabwxw/loginPage)
+
+## Team Members
+
+| Name            | Role                         | Email                     |
+|-----------------|------------------------------|---------------------------|
+| Jieyou Xu (Joe) | Team Lead, Backend Developer | jieyou.xu.18@ucl.ac.uk    |
+| Yingming Luo    | Frontend Developer (Unity)   | yingming.luo.18@ucl.ac.uk |
+| Wenxin Wang     | Frontend Developer (Website) | wenxin.wang.18@ucl.ac.uk  |
