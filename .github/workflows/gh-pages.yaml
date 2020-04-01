@@ -1,4 +1,4 @@
-name: "vrme-api-docs: gh-pages"
+name: github pages
 
 on:
   push:
@@ -6,16 +6,15 @@ on:
       - master
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
 
       - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v1.1.8
+        uses: peaceiris/actions-mdbook@v1
         with:
           mdbook-version: '0.3.6'
-          # mdbook-version: 'latest'
 
       - run: mdbook build
 
@@ -23,4 +22,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./book
