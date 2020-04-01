@@ -1,11 +1,22 @@
 site_name: "Virtual Reality Meeting Environment API Documentation"
 
 nav:
-  - "Home": index.md
-  - "About": about.md
+  - "Overview": index.md
+  - "Authentication":
+    - "Overview": authentication/index.md
+  - "Accounts API":
+    - "Overview": users-accounts/index.md
+  - "Meetings API":
+    - "Overview": meetings/index.md
+  - "About":
+    - "Project": about.md
+
 
 theme:
   name: 'material'
+
+  feature:
+    tabs: true
 
   palette:
     primary: 'pink'
@@ -24,6 +35,12 @@ extra:
 
 repo_name: 'jieyouxu/VRME-API-Documentation'
 repo_url: 'https://github.com/jieyouxu/VRME-API-Documentation'
+edit_uri: ''
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
 
 markdown_extensions:
   - admonition

@@ -9,11 +9,12 @@ Welcome to the API documenation for the Virtual Reality Meeting Environment!
 	See
 	[jieyouxu/VRME-Server-Rust](https://github.com/jieyouxu/vrme-server-rust).
 
-## API Components Route Summary
+## API Summary
 
 This API provides two major resources with authentication:
 
-1. **Users and Accounts**:
+1. **Users and Accounts**: see [Accounts API](./users-accounts/index.md) for
+   details.
 
 	- Registration: `POST /register`
 	- Login: `POST /login`
@@ -28,6 +29,11 @@ This API provides two major resources with authentication:
 		- Upload avatar: `POST /accounts/{uuid}/avatar`
 		- Delete avatar: `DELETE /accounts/{uuid}/avatar`
 
-2. **Meeting Sessions**:
+2. **Meeting Sessions**: see [Meetings API](./meetings/index.md) for details.
 
 	- ==TODO==
+
+## Authentication
+
+When a endpoint is *protected*, it will be explicitly marked. Read more about
+authentication requirements [here](./authentication/index.md).
