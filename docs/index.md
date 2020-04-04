@@ -58,6 +58,19 @@ authentication is required; for example:
 
 	... details on authentication
 
+## Payloads
+
+When payloads are required, they must be provided in JSON format unless
+otherwise specified.
+
+## Path Parameters
+
+When path parameters are required, they are denoted by braces in the API
+endpoint's path.
+
+For example, `POST /meetings/{meeting_id}/presenter` contains the path parameter
+`{meeting_id}` which must be specified by the client.
+
 ## Rate Limiting
 
 Requests made to the VRME API are throttled by rate-limiting.
