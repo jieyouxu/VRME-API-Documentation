@@ -31,7 +31,14 @@ This API provides two major resources with authentication:
 
 2. **Meeting Sessions**: see [Meetings API](./meetings/index.md) for details.
 
-	- ==TODO==
+	- Meetings:
+		- Create session: `POST /meetings`
+		- Add listener: `POST /meetings/{meeting_id}`
+		- Leave: `POST /meetings/{meeting_id}/leave`
+	- Presentations:
+		- Get presentation: `GET /meetings/{meeting_id}/presentation`
+		- Upload presentation: `POST /meetings/{meeting_id}/presentation`
+		- Delete presentation: `DELETE /meetings/{meeting_id}/presentation`
 
 ## Authentication
 
