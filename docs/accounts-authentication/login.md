@@ -49,6 +49,8 @@ An authentication session is created; the payload returned:
 	}
 	```
 
+## Error Response(s)
+
 ### `400 Bad Request`
 
 Returned if request missing fields or contain invalid values.
