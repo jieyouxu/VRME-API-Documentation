@@ -9,6 +9,9 @@ Welcome to the API documenation for the Virtual Reality Meeting Environment!
 	See
 	[jieyouxu/VRME-Server-Rust](https://github.com/jieyouxu/vrme-server-rust).
 
+This API documentation assumes basic familiarity with the HTTP(S) protocol and
+assumes paths are in *nix systems (`/`-separated paths).
+
 ## API Summary
 
 This API provides two major resources with authentication:
@@ -44,3 +47,7 @@ This API provides two major resources with authentication:
 
 When a endpoint is *protected*, it will be explicitly marked. Read more about
 authentication requirements [here](./authentication/index.md).
+
+## Rate Limiting
+
+Requests made to the VRME API are throttled by rate-limiting.
