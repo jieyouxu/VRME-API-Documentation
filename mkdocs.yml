@@ -13,6 +13,7 @@ nav:
     - "Get uuid with email": accounts-authentication/get-uuid-with-email.md
     - "Update account info": accounts-authentication/update-info.md
     - "Delete account": accounts-authentication/delete-account.md
+    - "Upload avatar": accounts-authentication/upload-avatar.md
   - "Meetings and Presentations API":
     - "Overview": meetings-presentations/index.md
   - "About":
