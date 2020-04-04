@@ -4,6 +4,8 @@
 
 `POST /meetings/{meeting_id}/leave`
 
+!!! note "Authentication required"
+
 ## Path Parameter
 
 | Path parameter | Type   | Description                 |
