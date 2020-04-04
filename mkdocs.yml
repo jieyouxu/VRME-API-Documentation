@@ -15,6 +15,7 @@ nav:
     - "Update account info": accounts-authentication/update-info.md
     - "Delete account": accounts-authentication/delete-account.md
     - "Upload avatar": accounts-authentication/upload-avatar.md
+    - "Get avatar": accounts-authentication/get-avatar.md
   - "Meetings and Presentations API":
     - "Overview": meetings-presentations/index.md
   - "About":
