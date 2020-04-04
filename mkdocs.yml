@@ -22,6 +22,7 @@ nav:
     - "Initiate meeting session": meetings-presentations/create-meeting-session.md
     - "Add listener": meetings-presentations/add-listener.md
     - "Get participants": meetings-presentations/get-participants.md
+    - "Leave meeting": meetings-presentations/leave.md
   - "About":
     - "Project": about.md
 
