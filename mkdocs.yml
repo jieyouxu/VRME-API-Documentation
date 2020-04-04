@@ -2,6 +2,7 @@ site_name: "Virtual Reality Meeting Environment API Documentation"
 
 nav:
   - "Overview": index.md
+  - "Terminology": terminology.md
   - "Authentication":
     - "Overview": authentication/index.md
   - "Accounts API":
