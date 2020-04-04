@@ -10,6 +10,7 @@ nav:
     - "Registration": accounts-authentication/register.md
     - "Login": accounts-authentication/login.md
     - "Logout": accounts-authentication/logout.md
+    - "Get uuid with email": accounts-authentication/get-uuid-with-email.md
   - "Meetings and Presentations API":
     - "Overview": meetings-presentations/index.md
   - "About":
