@@ -27,7 +27,7 @@ theme:
 
   font:
     text: 'Roboto'
-    code: 'Noto Sans Mono'
+    code: 'IBM Plex Mono'
 
   logo:
     icon: 'filter_drama'
