@@ -61,7 +61,21 @@ authentication is required; for example:
 ## Payloads
 
 When payloads are required, they must be provided in JSON format unless
-otherwise specified.
+otherwise specified. The server returns all response payloads in JSON except for
+files or otherwise specified.
+
+We describe a JSON object's fields using a table. When a JSON object is
+_nested_, we use the dot `.` to denote a nested layer.
+
+For example
+
+```json
+{
+	"outer": { "inner": true }
+}
+```
+
+We refer to the `"inner"` key as `outer.inner` in our tables.
 
 ## Path Parameters
 
