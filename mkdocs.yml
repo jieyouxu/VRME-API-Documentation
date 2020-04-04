@@ -9,6 +9,7 @@ nav:
     - "Overview": accounts-authentication/index.md
     - "Registration": accounts-authentication/register.md
     - "Login": accounts-authentication/login.md
+    - "Logout": accounts-authentication/logout.md
   - "Meetings and Presentations API":
     - "Overview": meetings-presentations/index.md
   - "About":
