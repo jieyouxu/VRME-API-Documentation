@@ -23,6 +23,7 @@ nav:
     - "Add listener": meetings-presentations/add-listener.md
     - "Get participants": meetings-presentations/get-participants.md
     - "Leave meeting": meetings-presentations/leave.md
+    - "Upload presentation": meetings-presentations/upload-presentation.md
   - "About":
     - "Project": about.md
 
