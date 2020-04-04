@@ -19,6 +19,7 @@ nav:
     - "Delete avatar": accounts-authentication/delete-avatar.md
   - "Meetings and Presentations API":
     - "Overview": meetings-presentations/index.md
+    - "Initiate meeting session": meetings-presentations/create-meeting-session.md
   - "About":
     - "Project": about.md
 
