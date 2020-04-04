@@ -37,6 +37,18 @@ An authentication session is created; the payload returned:
 	the client protect the `auth_token` as a secret, e.g. by performing
 	symmetric encryption.
 
+!!! example "Example response"
+
+	```http
+	HTTP/1.1 201 Created
+	Content-Type: application/json
+
+	{
+		"user_id": "33b2303f-ea97-43cd-9e33-e619b1eb04f1",
+		"auth_token": "MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTI="
+	}
+	```
+
 ### `400 Bad Request`
 
 Returned if request missing fields or contain invalid values.
