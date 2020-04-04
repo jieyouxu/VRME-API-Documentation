@@ -52,6 +52,22 @@ payload:
 	&#8225;: The `user_id` should be stored locally because protected endpoints
 	require	the user's UUID to authenticate.
 
+!!! example "Example response"
+
+	```http
+	HTTP/1.1 201 Created
+	Content-Type: application/json
+	Content-Length: 202
+
+	{
+		"data": {
+			"user_id": "33b2303f-ea97-43cd-9e33-e619b1eb04f1",
+			"email: "no-reply@example.com"
+		},
+		"message: "An account with email no-reply@example.com successfully created"
+	}
+	```
+
 ## Failure Response(s)
 
 ### `400 Bad Reqest`
