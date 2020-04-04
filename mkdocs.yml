@@ -25,6 +25,7 @@ nav:
     - "Leave meeting": meetings-presentations/leave.md
     - "Upload presentation": meetings-presentations/upload-presentation.md
     - "Get presentation": meetings-presentations/get-presentation.md
+    - "Delete presentation": meetings-presentations/delete-presentation.md
   - "About":
     - "Project": about.md
 
