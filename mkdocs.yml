@@ -11,6 +11,7 @@ nav:
     - "Login": accounts-authentication/login.md
     - "Logout": accounts-authentication/logout.md
     - "Get uuid with email": accounts-authentication/get-uuid-with-email.md
+    - "Get account info": accounts-authentication/get-account-info.md
     - "Update account info": accounts-authentication/update-info.md
     - "Delete account": accounts-authentication/delete-account.md
     - "Upload avatar": accounts-authentication/upload-avatar.md
