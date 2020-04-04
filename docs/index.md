@@ -74,3 +74,6 @@ For example, `POST /meetings/{meeting_id}/presenter` contains the path parameter
 ## Rate Limiting
 
 Requests made to the VRME API are throttled by rate-limiting.
+
+If requests are made too frequent, their processing will be rejected by the
+server and the `#!http 429 Too Many Requests` error response will be returned.
