@@ -68,7 +68,7 @@ payload:
 	}
 	```
 
-## Failure Response(s)
+## Error Response(s)
 
 ### `400 Bad Reqest`
 
