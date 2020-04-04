@@ -48,8 +48,15 @@ This API provides two major resources with authentication:
 
 ## Authentication
 
-When a endpoint is *protected*, it will be explicitly marked. Read more about
+When an endpoint is _protected_, it will be explicitly marked. Read more about
 authentication requirements [here](./accounts-authentication/index.md).
+
+When an endpoint is _protected_, it will have a yellow bubble indicating that
+authentication is required; for example:
+
+!!! warning "Authentication Required"
+
+	... details on authentication
 
 ## Rate Limiting
 
