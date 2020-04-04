@@ -16,7 +16,8 @@ assumes paths are in *nix systems (`/`-separated paths).
 
 This API provides two major resources with authentication:
 
-1. **Users and Accounts**: see [Accounts API](./users-accounts/index.md) for
+1. **Users and Accounts**: see
+   [Accounts and Authentication API](./accounts-authentication/index.md) for
    details.
 
 	- Registration: `POST /register`
@@ -32,7 +33,9 @@ This API provides two major resources with authentication:
 		- Upload avatar: `POST /accounts/{uuid}/avatar`
 		- Delete avatar: `DELETE /accounts/{uuid}/avatar`
 
-2. **Meeting Sessions**: see [Meetings API](./meetings/index.md) for details.
+2. **Meeting Sessions and Presentations**: see
+   [Meetings and Presentations API](./meetings-presentations/index.md) for
+   details.
 
 	- Meetings:
 		- Create session: `POST /meetings`
@@ -46,7 +49,7 @@ This API provides two major resources with authentication:
 ## Authentication
 
 When a endpoint is *protected*, it will be explicitly marked. Read more about
-authentication requirements [here](./authentication/index.md).
+authentication requirements [here](./accounts-authentication/index.md).
 
 ## Rate Limiting
 
