@@ -24,6 +24,7 @@ nav:
     - "Get participants": meetings-presentations/get-participants.md
     - "Leave meeting": meetings-presentations/leave.md
     - "Upload presentation": meetings-presentations/upload-presentation.md
+    - "Get presentation": meetings-presentations/get-presentation.md
   - "About":
     - "Project": about.md
 
