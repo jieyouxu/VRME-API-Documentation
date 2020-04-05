@@ -26,3 +26,9 @@ Currently the user can only update their `first_name` or `last_name`.
 ## Success Response
 
 ### `204 No Content`
+
+## Error Response(s)
+
+### `403 Forbidden`
+
+Invalid credentials supplied.
