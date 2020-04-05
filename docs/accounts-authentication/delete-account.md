@@ -11,3 +11,9 @@
 ## Success Response
 
 ### `204 No Content`
+
+## Error Response(s)
+
+### `403 Forbidden`
+
+Invalid credentials supplied.
