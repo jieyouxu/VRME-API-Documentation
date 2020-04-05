@@ -49,6 +49,10 @@ Invalid payload.
 
 Invalid credentials supplied.
 
+### `404 Not Found`
+
+If no account was found associated with `user_id`.
+
 ### `415 Unsupported Media Type`
 
 If non-`multipart/form-data` and/or non-`image/png` payload is supplied.

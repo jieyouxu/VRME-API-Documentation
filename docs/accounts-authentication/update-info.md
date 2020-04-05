@@ -32,3 +32,7 @@ Currently the user can only update their `first_name` or `last_name`.
 ### `403 Forbidden`
 
 Invalid credentials supplied.
+
+### `404 Not Found`
+
+No account associated with `user_id` was found.
