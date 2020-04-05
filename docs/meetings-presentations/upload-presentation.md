@@ -26,3 +26,18 @@ Currently only PNG is supported by the client-side, so we again require:
 ## Success Response
 
 ### `201 Created`
+
+## Error Response(s)
+
+### `400 Bad Request`
+
+Malformed payload.
+
+### `403 Forbidden`
+
+Invalid credentials supplied or not the presenter of the target meeting session.
+
+### `415 Unsupported Media Type`
+
+The payload is not `multipart/form-data` and/or its single field not
+`image/png`.
