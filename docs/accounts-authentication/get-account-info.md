@@ -16,9 +16,19 @@ Currently only returns the first name and last name of the user.
 
 ### `200 Ok`
 
-```json
-{
-	"first_name": "John",
-	"last_name": "Doe"
-}
-```
+| Field | Type | Description |
+| - | -| -|
+| `first_name` | `String` | first name |
+| `last_name` | `String` | last name |
+
+!!! example "Example response"
+
+	```http
+	HTTP/1.1 200 Ok
+	Content-Type: application/json
+
+	{
+		"first_name": "John",
+		"last_name": "Doe"
+	}
+	```
