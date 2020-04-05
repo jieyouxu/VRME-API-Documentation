@@ -8,7 +8,7 @@
 
 !!! danger "DANGER: Destructive non-recoverable operation"
 
-	User must be part of the meeting session.
+	User must be the _presenter_ of the meeting session.
 
 ## Path Parameter
 
@@ -19,3 +19,13 @@
 ## Success Response
 
 ### `204 No Content`
+
+## Error Response(s)
+
+### `403 Forbidden`
+
+Invalid credentials or user is not the presenter of the meeting session.
+
+### `404 Not Found`
+
+No meeting session with `meeting_id` was found.

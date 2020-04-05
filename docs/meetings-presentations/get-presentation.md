@@ -24,3 +24,13 @@ Content-Type: image/png
 
 ... raw bytes
 ```
+
+## Error Response(s)
+
+### `403 Forbidden`
+
+Invalid credentials supplied or user is not part of the meeting session.
+
+### `404 Not Found`
+
+No meeting session with `meeting_id` was found.
