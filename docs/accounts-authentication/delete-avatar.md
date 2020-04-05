@@ -19,3 +19,13 @@
 ## Success Response
 
 ### `204 No Content`
+
+## Error Response(s)
+
+### `403 Forbidden`
+
+Invalid credentials supplied.
+
+### `404 Not Found`
+
+No account associated with `user_id` was found.
