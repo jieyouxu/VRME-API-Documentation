@@ -20,11 +20,11 @@
 
 ### `201 Created`
 
-| Field | Type | Description |
-| - | - | -|
-| `meeting_id` | `Uuid` | unique meeting session identifier |
-| `presenter` | `Uuid` | the presenter's `user_id` |
-| `listeners` | `Uuid[]` | list of the `user_id`s of the listeners |
+| Field        | Type       | Description                               |
+|--------------|------------|-------------------------------------------|
+| `meeting_id` | `Uuid`     | unique meeting session identifier         |
+| `presenter`  | `Uuid`     | the presenter's `user_id`                 |
+| `listeners`  | `Uuid[]`   | list of the `user_id`s of the listeners   |
 | `started_at` | `Datetime` | starting datetime of the meeting^&#8224;^ |
 
 !!! tip "&#8224;: Datetime"
@@ -47,3 +47,9 @@
 
 [RFC 3339]: https://tools.ietf.org/html/rfc3339
 [ISO 8601]: https://tools.ietf.org/html/rfc3339#ref-ISO8601
+
+## Error Response(s)
+
+### `403 Forbidden`
+
+Invalid credentials supplied.
